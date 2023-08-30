@@ -1,15 +1,14 @@
-package com.skcet.day6.model;
+package com.skcet.com.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-
 @Entity
 public class gardenmodel {
-        @Id
-        @GeneratedValue (strategy = GenerationType.IDENTITY)
+	 @Id
+     @GeneratedValue (strategy = GenerationType.IDENTITY)
 	    private int id;
 	    private String nameofVegetable;
 	    private int lifeOfVegetable;
@@ -24,17 +23,17 @@ public class gardenmodel {
 		public void setId(int id) {
 			this.id = id;
 		}
-		public String getNameofVegitable() {
+		public String getNameofVegetable() {
 			return nameofVegetable;
 		}
-		public void setNameofVegitable(String nameofVegitable) {
-			this.nameofVegetable = nameofVegitable;
+		public void setNameofVegetable(String nameofVegetable) {
+			this.nameofVegetable = nameofVegetable;
 		}
-		public int getLifeOfVegitable() {
+		public int getLifeOfVegetable() {
 			return lifeOfVegetable;
 		}
-		public void setLifeOfVegitable(int lifeOfVegitable) {
-			this.lifeOfVegetable = lifeOfVegitable;
+		public void setLifeOfVegetable(int lifeOfVegetable) {
+			this.lifeOfVegetable = lifeOfVegetable;
 		}
 		public String getVitamins() {
 			return vitamins;
@@ -54,11 +53,11 @@ public class gardenmodel {
 		public void setContact(String contact) {
 			this.contact = contact;
 		}
-		public int getRatingOfVegitable() {
+		public int getRatingOfVegetable() {
 			return ratingOfVegetable;
 		}
-		public void setRatingOfVegitable(int ratingOfVegitable) {
-			this.ratingOfVegetable = ratingOfVegitable;
+		public void setRatingOfVegetable(int ratingOfVegetable) {
+			this.ratingOfVegetable = ratingOfVegetable;
 		}
 		public String getComments() {
 			return comments;
